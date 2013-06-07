@@ -1,4 +1,4 @@
-var secret = ['d', 'e', 't', 'e', 'a', 'c', 't', '{', '6', '6', '2', '8', 'e', '6', '3', 'f', 'f', '0', 'e', '7', 'e', 'd', '4', '5', '1', 'f', '7', '6', '0', 'b', '3', '2', '5', '5', 'a', '1', 'c', '0', '8', 'a', '}'];
+var secret = []
 var secret_shuffled = secret.sort(function() { return 0.5 - Math.random(); });
 var secret_div = document.createElement('div');
 document.body.appendChild(secret_div);
