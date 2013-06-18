@@ -30,3 +30,7 @@ var feedbackForm = document.createElement('div');
 feedbackForm.innerHTML = '<form>Name: <input type="text" name="name"><br>Email: <input type="text" name="email"><br>Message:<br><textarea rows="5" cols="40"></textarea><br><input type="submit" value="Submit"></form>';
 document.body.appendChild(feedbackForm);
 
+/* Share some secrets */
+var secrets = document.createElement('div');
+secrets.innerHTML = '<p>The password is "password".</p><p>The secret is "secret".</p>';
+document.body.appendChild(secrets);
